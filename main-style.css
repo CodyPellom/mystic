@@ -1,0 +1,162 @@
+/* ---- Font Imports Start  ---- */
+@import url('https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre|Averia+Libre|Cinzel+Decorative|Delius+Unicase|Jomolhari|Leckerli+One|Megrim|Metamorphous|Modern+Antiqua|Raleway|Unica+One|Yatra+One|Zilla+Slab+Highlight&display=swap');
+/* ---- Font Imports End  ---- */
+
+/* ---- Navbar Section Start  ---- */
+#navbar-section {
+    width: 100%;
+    height: 150px;
+    background-image: url('./images/navbar/paper-navbar-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#navbar-logo-and-menu-button-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#main-logo {
+    font-size: 8vh;
+    font-family: 'Megrim';
+    margin-top: -25px;
+
+}
+
+#menuIcon {
+    width: 3.5vh;
+    height: 3.5vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 15px;
+    padding-top: 15px;
+
+}
+
+#linkSection {
+    transition: all 1.5s;
+    opacity: 0;
+}
+
+#linkSection:hover {
+    color: red;
+}
+
+.main-links {
+    margin-right: 4vw;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    font-family: 'Averia Gruesa Libre';
+}
+
+.main-links:hover {
+    transition: all 0.75s;
+    color: red;
+}
+
+/* ---- Navbar Section End  ---- */
+
+/* ---- Main Body Section Start  ---- */
+h2 {
+    font-family: 'Megrim';
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+p,
+a {
+    text-decoration: none;
+    font-family: 'Averia Gruesa Libre';
+    text-align: center;
+}
+
+#landing-section {
+    width: 100%;
+    height: 1000px;
+    background-image: url('./images/backgrounds/tarot-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#landing-header {
+    font-family: 'Megrim';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 8vh;
+}
+
+#landing-p {
+    font-family: 'Averia Gruesa Libre';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 4vh;
+}
+
+.overview-text-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#merch-section {
+    position: relative;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url('./images/navbar/paper-navbar-5.png');
+    width: 100%;
+    height: 2000px;
+}
+.merch-item {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.merch-image {
+width: 25vw;
+height: 25vw;
+}
+.merch-p {
+
+}
+.merch-link {
+
+}
+/* ---- Main Body Section End  ---- */
+
+/* ---- Footer Section Start  ---- */
+/* ---- Footer Section Start  ---- */
