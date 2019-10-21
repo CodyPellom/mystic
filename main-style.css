@@ -5,7 +5,6 @@
 /* ---- Navbar Section Start  ---- */
 .nav-wrapper {
     width: 100%;
-    height: 150px;
     background-image: url('./images/navbar/paper-navbar-4.png');
     background-attachment: fixed;
     background-position: center;
@@ -14,6 +13,7 @@
     background-repeat: no-repeat;
 
 }
+
 html {
     width: 100%;
 }
@@ -30,9 +30,9 @@ html {
     width: 100%;
 }
 
-.brand-logo   {
+.brand-logo {
     color: black !important;
-    font-size: 8vh !important;
+    font-size: 5vw !important;
     font-family: 'Megrim';
 
 }
@@ -48,19 +48,15 @@ html {
 
 }
 
-#linkSection {
-    transition: all 1.5s;
-    opacity: 0;
-}
 
 #linkSection:hover {
     color: red;
 }
 
-.main-links{
+.main-links {
     color: black;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-family: 'Averia Gruesa Libre';
 }
 
@@ -131,15 +127,16 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./images/backgrounds/paper-bg.png');
     width: 100%;
-    height: 2000px;
+    padding-top: 10vw;
+
 }
 
 .merch-item {
@@ -150,19 +147,35 @@ a {
     align-items: center;
     align-content: center;
 }
+.merch-header {
+    font-family: 'Megrim';
+}
 
 .merch-image {
     width: 25vw;
     height: 25vw;
 }
-
+.merch-image:hover {
+    transform:translate(0px, -7.5px);
+    transition: transform 0.5s;
+}
+.merch-image:not(:hover) {
+    transform:translate(0px, 0px);
+    transition: transform 1s;
+}
 .merch-p {
-    width: 80%;
+    width: 90%;
+    font-family: 'Averia Gruesa Libre';
 }
 
 .merch-link {
     text-decoration: none;
-    color: black
+    color: red
+}
+
+.merch-link:hover {
+    transition: color 1s;
+    color: black;
 }
 
 /* ---- Main Body Section End  ---- */
