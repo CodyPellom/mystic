@@ -3,19 +3,22 @@
 /* ---- Font Imports End  ---- */
 
 /* ---- Navbar Section Start  ---- */
-#navbar-section {
+.nav-wrapper {
     width: 100%;
     height: 150px;
     background-image: url('./images/navbar/paper-navbar-4.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
+html {
+    width: 100%;
+}
+
+
 
 #navbar-logo-and-menu-button-section {
     display: flex;
@@ -24,12 +27,13 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    width: 100%;
 }
 
-#main-logo {
-    font-size: 8vh;
+.brand-logo   {
+    color: black !important;
+    font-size: 8vh !important;
     font-family: 'Megrim';
-    margin-top: -25px;
 
 }
 
@@ -53,11 +57,10 @@
     color: red;
 }
 
-.main-links {
-    margin-right: 4vw;
-    text-decoration: none;
+.main-links{
     color: black;
-    font-size: 2vw;
+    text-decoration: none;
+    font-size: 1vw;
     font-family: 'Averia Gruesa Libre';
 }
 
@@ -126,36 +129,42 @@ a {
 #merch-section {
     position: relative;
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    background-image: url('./images/navbar/paper-navbar-5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/backgrounds/paper-bg.png');
     width: 100%;
     height: 2000px;
 }
+
 .merch-item {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
 .merch-image {
-width: 25vw;
-height: 25vw;
+    width: 25vw;
+    height: 25vw;
 }
+
 .merch-p {
-
+    width: 80%;
 }
+
 .merch-link {
-
+    text-decoration: none;
+    color: black
 }
+
 /* ---- Main Body Section End  ---- */
 
 /* ---- Footer Section Start  ---- */
